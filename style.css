@@ -1,3 +1,4 @@
+/* Entire Document */
 html{
     background-color: #121212;
 }
@@ -11,7 +12,8 @@ button {
     width: 50%;
     font-size: 125%;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 450;
+    border-radius: 8px;
 }
 
 h1 {
@@ -27,4 +29,13 @@ h1 {
 .YouTube {
     color: white;
     background: linear-gradient(130deg, rgba(255,138,138,1) 0%, rgba(255,55,64,1) 35%, rgba(255,0,0,1) 100%);
+}
+
+.Instagram {
+    color: white;
+    background: rgba(228,64,95,1) 100%;
+}
+
+.ReactJS {
+    background: #61DAFB;
 }
