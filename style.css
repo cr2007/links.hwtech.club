@@ -1,3 +1,30 @@
+html{
+    background-color: #121212;
+}
+
 body {
     text-align: center;    
+}
+
+button {
+    padding: 24px 25px 25px 30px;
+    width: 50%;
+    font-size: 125%;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    color: white;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.Website {
+    color: white;
+    background: linear-gradient(173deg, rgba(96,142,255,1) 0%, rgba(54,95,196,1) 42%, rgba(1,74,255,1) 100%);
+}
+
+.YouTube {
+    color: white;
+    background: linear-gradient(130deg, rgba(255,138,138,1) 0%, rgba(255,55,64,1) 35%, rgba(255,0,0,1) 100%);
 }
