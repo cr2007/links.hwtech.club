@@ -1,11 +1,16 @@
 /* Entire Document */
 html{
     background-color: #121212;
+    background-image: url('./background-ill.svg');
+    background-position: center;
 }
 
 /* Centre-Aligning all the text */
 body {
     text-align: center;    
+    font-family: 'Montserrat', sans-serif !important; 
+   
+
 }
 
 /* Button Styling */
@@ -15,37 +20,57 @@ button {
     font-size: 125%;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-weight: 450;
-    border-radius: 8px;
+    border-radius: 0px;
 }
 
 /* Styling the Main Title */
 h1 {
     color: white;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
-
+.Title {
+ margin-bottom: 1em;
+ margin-top: 3em;
+}
 /* Custom Button Stylings */
 
 
 /* Tech Club Website */
+button {
+    color: white;
+    background: #202020;
+    border: 2px solid #202020;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fafafa;
+    color:#202020;
+    transition: 0.25s;
+}
+
 .Website {
     color: white;
-    background: linear-gradient(173deg, rgba(96,142,255,1) 0%, rgba(54,95,196,1) 42%, rgba(1,74,255,1) 100%);
+    background: #202020;
+    border: 2px solid #202020;
+    cursor: pointer;
 }
-
+.Website:hover{
+    background-color: #fafafa;
+    color:#202020;
+    transition: 0.25s;
+}
 /* YouTube Channel Button */
-.YouTube {
+/* .YouTube {
     color: white;
     background: linear-gradient(130deg, rgba(255,138,138,1) 0%, rgba(255,55,64,1) 35%, rgba(255,0,0,1) 100%);
-}
+} */
 
 /* @hwtechclub Button */
-.Instagram {
+/* .Instagram {
     color: white;
     background: rgba(228,64,95,1) 100%;
-}
+} */
 
 /* ReactJS Competition Button */
-.ReactJS {
+/* .ReactJS {
     background: #61DAFB;
-}
+} */
