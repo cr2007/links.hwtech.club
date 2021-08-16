@@ -9,8 +9,6 @@ html{
 body {
     text-align: center;    
     font-family: 'Montserrat', sans-serif !important; 
-   
-
 }
 
 /* Button Styling */
@@ -21,6 +19,19 @@ button {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-weight: 450;
     border-radius: 0px;
+    
+    /* Color Designs */
+    color: white;
+    background: #202020;
+    border: 2px solid #202020;
+    cursor: pointer;
+}
+
+/* Styling to change the look of the button when the cursor's on it */
+button:hover{
+    background-color: #fafafa;
+    color:#202020;
+    transition: 0.25s;
 }
 
 /* Styling the Main Title */
@@ -31,23 +42,10 @@ h1 {
  margin-bottom: 1em;
  margin-top: 3em;
 }
+
 /* Custom Button Stylings */
 
-
-/* Tech Club Website */
-button {
-    color: white;
-    background: #202020;
-    border: 2px solid #202020;
-    cursor: pointer;
-}
-button:hover{
-    background-color: #fafafa;
-    color:#202020;
-    transition: 0.25s;
-}
-
-.Website {
+/* .Website {
     color: white;
     background: #202020;
     border: 2px solid #202020;
@@ -57,8 +55,11 @@ button:hover{
     background-color: #fafafa;
     color:#202020;
     transition: 0.25s;
-}
+} */
+
+
 /* YouTube Channel Button */
+
 /* .YouTube {
     color: white;
     background: linear-gradient(130deg, rgba(255,138,138,1) 0%, rgba(255,55,64,1) 35%, rgba(255,0,0,1) 100%);
