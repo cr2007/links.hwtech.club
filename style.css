@@ -11,6 +11,15 @@ body {
     font-family: 'Montserrat', sans-serif !important; 
 }
 
+/* Styling the Main Title */
+h1 {
+    color: white;
+}
+.Title {
+ margin-bottom: 1em;
+ margin-top: 3em;
+}
+
 /* Button Styling */
 button {
     padding: 24px 25px 25px 30px;
@@ -32,15 +41,6 @@ button:hover{
     background-color: #fafafa;
     color:#202020;
     transition: 0.25s;
-}
-
-/* Styling the Main Title */
-h1 {
-    color: white;
-}
-.Title {
- margin-bottom: 1em;
- margin-top: 3em;
 }
 
 /* Custom Button Stylings */
