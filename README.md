@@ -17,5 +17,6 @@
 #### Tasks Checklist
 - [x] Adding the README file
 - [x] Adding the CSS Files
-- [ ] Custom design all the buttons
-- [ ] Try to add the Images beside each respective button
+- [ ] Custom design all the buttons (when hovered)
+- [ ] Try to add the Images beside each respective button (when hovered)
+- [ ] Add a tiny 'Contribute via GitHub' button in the bottom
