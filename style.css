@@ -43,6 +43,7 @@ button:hover{
     transition: 0.25s;
 }
 
+/* Club Sign-Ups Button (Custom) Styling */
 .ClubSignUp:hover {
     background: radial-gradient(circle, rgba(250,136,52,1) 33%, rgba(240,67,123,1) 79%, rgba(21,21,21,1) 100%);
     color: #151515;
