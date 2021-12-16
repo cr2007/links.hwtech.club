@@ -16,7 +16,6 @@
 #### Tasks Checklist
 - [x] Adding the README file
 - [x] Adding the CSS Files
-- [ ] **Create a Drop-down for the Game Dev Series**
 - [ ] Custom design all the buttons (when hovered)
 - [ ] Try to add the Images beside each respective button (when hovered)
 - [ ] Add a tiny 'Contribute via GitHub' button in the bottom-left corner
