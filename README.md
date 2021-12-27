@@ -1,5 +1,5 @@
 <div align="center">
-    <h2>links.hwtech.club</h2>
+        <h2><a href="https://links.hwtech.club/">links.hwtech.club</a></h2>
     <h3>All-in-One Link Sharing Page</h3>
 </div>
 <br>
