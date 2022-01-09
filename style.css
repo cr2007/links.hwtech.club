@@ -43,6 +43,51 @@ button:hover{
     transition: 0.25s;
 }
 
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    outline: none;
+    transition: 0.4s;
+    padding: 24px 25px 25px 30px;
+    width: 50%;
+    font-size: 125%;
+    font-family: Montserrat, sans-serif;
+    font-weight: 450;
+    border-radius: 0px;
+    /* Color Designs */
+    color: white;
+    background: #202020;
+    border: 2px solid #202020;
+    cursor: pointer;
+  }
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+background-color: white;
+}
+
+.active {
+    color: #202020;
+}
+
+.accordion::after {
+    content: '\1F817';
+}
+
+.active::after {
+    content: '\1F815';
+}
+  
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+padding: 0 5%;
+background-color: #121212;
+color: white;
+display: none;
+overflow: hidden;
+}
+
+
+
 /* Club Sign-Ups Button (Custom) Styling */
 .ClubSignUp:hover {
     background: radial-gradient(circle, rgba(250,136,52,1) 33%, rgba(240,67,123,1) 79%, rgba(21,21,21,1) 100%);
