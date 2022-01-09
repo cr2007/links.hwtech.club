@@ -46,7 +46,7 @@ button:hover{
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     outline: none;
-    transition: 0.4s;
+    /* transition: 0.4s; */
     padding: 24px 25px 25px 30px;
     width: 50%;
     font-size: 125%;
@@ -70,20 +70,21 @@ background-color: white;
 }
 
 .accordion::after {
-    content: '\25BC';
+    content: '\25BC'; /* Unicode character for 'Black Down-Pointing Triangle' sign (▼) */
 }
 
 .active::after {
-    content: '\25B2';
+    content: '\25B2'; /* Unicode character for 'Black Up-Pointing Triangle' sign (▲) */
 }
   
 /* Style the accordion panel. Note: hidden by default */
 .panel {
 padding: 0 5%;
-background-color: #121212;
+max-height: 0;
 color: white;
 display: none;
 overflow: hidden;
+transition: max-height 0.2s ease-out;
 }
 
 
