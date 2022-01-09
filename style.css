@@ -70,11 +70,11 @@ background-color: white;
 }
 
 .accordion::after {
-    content: '\1F817';
+    content: '\25BC';
 }
 
 .active::after {
-    content: '\1F815';
+    content: '\25B2';
 }
   
 /* Style the accordion panel. Note: hidden by default */
