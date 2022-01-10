@@ -16,8 +16,8 @@ h1 {
     color: white;
 }
 .Title {
- margin-bottom: 1em;
- margin-top: 3em;
+    margin-bottom: 1em;
+    margin-top: 3em;
 }
 
 /* Button Styling */
@@ -79,12 +79,12 @@ background-color: white;
   
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-padding: 0 5%;
-max-height: 0;
-color: white;
-display: none;
-overflow: hidden;
-transition: max-height 0.2s ease-out;
+    padding: 0 5%;
+    max-height: 0;
+    color: white;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 
