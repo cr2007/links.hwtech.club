@@ -87,18 +87,49 @@ button:hover{
 	transition: max-height 0.2s ease-out;
 }
 
-/* Galaxy Note 20 Media Queries */
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
+@media only screen and (max-width: 280px){
 	button, .accordion {
-		padding: 24px 30px 25px 30px;
-		width: 85%;
-	}
-
-	.GDSC, .TechClubSignUp {
-		font-size: 140%;
+		width: 95%;
+		font-size: 115%;
 	}
 }
+
+@media only screen and (min-width: 280px) {
+	button, .accordion {
+		width: 85%;
+		font-size: 125%;
+		/* width: 50%;
+		font-size: 125%; */
+	}
+
+	.TechClubSignUp, .GDSC {
+		font-size: 115%;
+	}
+}
+
+@media only screen and (min-width: 540px) {
+	button, .accordion {
+		width: 65%;
+		font-size: 125%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	button, .accordion {
+		width: 50%;
+		font-size: 125%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	button, .accordion {
+		width: 50%;
+		font-size: 125%;
+	}
+
+	.TechClubSignUp, .GDSC {
+		font-size: 125%;
+	}
 
 /* Club Sign-Ups Button (Custom) Styling */
 .ClubSignUp:hover {
