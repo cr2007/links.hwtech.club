@@ -16,8 +16,8 @@ h1 {
     color: white;
 }
 .Title {
- margin-bottom: 1em;
- margin-top: 3em;
+    margin-bottom: 1em;
+    margin-top: 3em;
 }
 
 /* Button Styling */
@@ -42,6 +42,52 @@ button:hover{
     color:#202020;
     transition: 0.25s;
 }
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    outline: none;
+    /* transition: 0.4s; */
+    padding: 24px 25px 25px 30px;
+    width: 50%;
+    font-size: 125%;
+    font-family: Montserrat, sans-serif;
+    font-weight: 450;
+    border-radius: 0px;
+    /* Color Designs */
+    color: white;
+    background: #202020;
+    border: 2px solid #202020;
+    cursor: pointer;
+  }
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+background-color: white;
+}
+
+.active {
+    color: #202020;
+}
+
+.accordion::after {
+    content: '\25BC'; /* Unicode character for 'Black Down-Pointing Triangle' sign (▼) */
+}
+
+.active::after {
+    content: '\25B2'; /* Unicode character for 'Black Up-Pointing Triangle' sign (▲) */
+}
+  
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 5%;
+    max-height: 0;
+    color: white;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
 
 /* Club Sign-Ups Button (Custom) Styling */
 .ClubSignUp:hover {
