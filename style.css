@@ -60,7 +60,8 @@ button:hover{
 	cursor: pointer;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Add a background color to the button if it is clicked on (add the
+   active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
 	background-color: white;
 }
@@ -87,6 +88,7 @@ button:hover{
 	transition: max-height 0.2s ease-out;
 }
 
+/* For Screen sizes <280px */
 @media only screen and (max-width: 280px){
 	button, .accordion {
 		width: 95%;
@@ -94,16 +96,30 @@ button:hover{
 	}
 }
 
+/* For Screen Sizes >280px */
 @media only screen and (min-width: 280px) {
 	button, .accordion {
 		width: 85%;
-		font-size: 125%;
+		font-size: 110%;
 		/* width: 50%;
 		font-size: 125%; */
 	}
 
+	/* Club Sign-Up Forms */
 	.TechClubSignUp, .GDSC {
 		font-size: 115%;
+	}
+}
+
+@media only screen and (min-width: 353px) {
+	.TechClubSignUp, .GDSC {
+		font-size: 120%;
+	}
+}
+
+@media only screen and (min-width: 364px) {
+	.TechClubSignUp, .GDSC {
+		font-size: 105%;
 	}
 }
 
@@ -119,16 +135,18 @@ button:hover{
 		width: 50%;
 		font-size: 125%;
 	}
+
+
 }
 
 @media only screen and (min-width: 600px) {
 	button, .accordion {
-		width: 50%;
+		width: 60%;
 		font-size: 125%;
 	}
 
 	.TechClubSignUp, .GDSC {
-		font-size: 125%;
+		font-size: 105%;
 	}
 
 /* Club Sign-Ups Button (Custom) Styling */
