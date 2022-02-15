@@ -5,7 +5,7 @@
 <br>
 
 <!-- Description Paragraph -->
-<p>This website is a landing page that allows us to easily share multiple links on our social media pages.</p>
+<p>This website is a landing page for <a href="https://github.com/HWTechClub">HW Tech Club</a> that allows us to easily share multiple links on our social media pages.</p>
 <p>This link will be placed in the website section for all our Social Media Pages</p>
 <p>Think of it as a Linktree alternative, but with better personalisation</p>
 <br>
@@ -19,4 +19,4 @@
 - [ ] Custom design all the buttons (when hovered)
 - [ ] Try to add the Images beside each respective button (when hovered)
 - [ ] Add a tiny 'Contribute via GitHub' button in the bottom-left corner
-- [ ] Try to add GDSC links beside it
+- [ ] Try to add GDSC links beside it (side-by-side)
