@@ -1,99 +1,170 @@
 /* Entire Document */
 html{
-    background-color: #121212;
-    background-image: url('images/background-ill.svg');
-    background-position: center;
+	background-color: #121212;
+	background-image: url('images/background-ill.svg');
+	background-position: center;
 }
 
 /* Centre-Aligning all the text */
 body {
-    text-align: center;    
-    font-family: 'Montserrat', sans-serif !important; 
+	text-align: center;
+	font-family: 'Montserrat', sans-serif !important;
 }
 
 /* Styling the Main Title */
 h1 {
-    color: white;
+	color: white;
 }
 .Title {
-    margin-bottom: 1em;
-    margin-top: 3em;
+	margin-bottom: 1em;
+	margin-top: 3em;
 }
 
 /* Button Styling */
 button {
-    padding: 24px 25px 25px 30px;
-    width: 50%;
-    font-size: 125%;
-    font-family: Montserrat, sans-serif;
-    font-weight: 450;
-    border-radius: 0px;
-    
-    /* Color Designs */
-    color: white;
-    background: #202020;
-    border: 2px solid #202020;
-    cursor: pointer;
+	padding: 24px 25px 25px 30px;
+	width: 50%;
+	font-size: 125%;
+	font-family: Montserrat, sans-serif;
+	font-weight: 450;
+	border-radius: 0px;
+
+	/* Color Designs */
+	color: white;
+	background: #202020;
+	border: 2px solid #202020;
+	cursor: pointer;
 }
 
 /* Styling to change the look of the button when the cursor's on it */
 button:hover{
-    background-color: #fafafa;
-    color:#202020;
-    transition: 0.25s;
+	background-color: #fafafa;
+	color:#202020;
+	transition: 0.25s;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    outline: none;
-    /* transition: 0.4s; */
-    padding: 24px 25px 25px 30px;
-    width: 50%;
-    font-size: 125%;
-    font-family: Montserrat, sans-serif;
-    font-weight: 450;
-    border-radius: 0px;
-    /* Color Designs */
-    color: white;
-    background: #202020;
-    border: 2px solid #202020;
-    cursor: pointer;
-  }
-  
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+	outline: none;
+	/* transition: 0.4s; */
+	padding: 24px 25px 25px 30px;
+	width: 50%;
+	font-size: 125%;
+	font-family: Montserrat, sans-serif;
+	font-weight: 450;
+	border-radius: 0px;
+	/* Color Designs */
+	color: white;
+	background: #202020;
+	border: 2px solid #202020;
+	cursor: pointer;
+}
+
+/* Add a background color to the button if it is clicked on (add the
+   active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-background-color: white;
+	background-color: white;
 }
 
 .active {
-    color: #202020;
+	color: #202020;
 }
 
 .accordion::after {
-    content: '\25BC'; /* Unicode character for 'Black Down-Pointing Triangle' sign (▼) */
+	content: '\25BC'; /* Unicode character for 'Black Down-Pointing Triangle' sign (▼) */
 }
 
 .active::after {
-    content: '\25B2'; /* Unicode character for 'Black Up-Pointing Triangle' sign (▲) */
+	content: '\25B2'; /* Unicode character for 'Black Up-Pointing Triangle' sign (▲) */
 }
-  
+
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 0 5%;
-    max-height: 0;
-    color: white;
-    display: none;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
+	padding: 0 5%;
+	max-height: 0;
+	color: white;
+	display: none;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+/* For Screen sizes <280px */
+@media only screen and (max-width: 280px){
+	button, .accordion {
+		width: 95%;
+		font-size: 115%;
+	}
+}
+
+/* For Screen Sizes >280px */
+@media only screen and (min-width: 280px) {
+	button, .accordion {
+		width: 85%;
+		font-size: 110%;
+		/* width: 50%;
+		font-size: 125%; */
+	}
+
+	/* Club Sign-Up Forms */
+	.TechClubSignUp, .GDSC {
+		font-size: 115%;
+	}
+}
+
+@media only screen and (min-width: 353px) {
+	.TechClubSignUp, .GDSC {
+		font-size: 120%;
+	}
+}
+
+@media only screen and (min-width: 364px) {
+	.TechClubSignUp, .GDSC {
+		font-size: 105%;
+	}
+}
+
+@media only screen and (min-width: 429px) {
+	.TechClubSignUp, .GDSC {
+		font-size: 105%;
+	}
+}
+
+@media only screen and (min-width: 540px) {
+	button, .accordion {
+		width: 65%;
+		font-size: 125%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	button, .accordion {
+		width: 60%;
+		font-size: 125%;
+	}
+
+	.TechClubSignUp {
+		font-size: 105%;
+	}
+
+	.GDSC {
+		font-size: 104%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	button, .accordion {
+		width: 50%;
+		font-size: 125%;
+	}
 }
 
 
 
 /* Club Sign-Ups Button (Custom) Styling */
 .ClubSignUp:hover {
-    background: radial-gradient(circle, rgba(250,136,52,1) 33%, rgba(240,67,123,1) 79%, rgba(21,21,21,1) 100%);
-    color: #151515;
-    transition: 0.5s;
+	background: radial-gradient(circle, rgba(250,136,52,1) 33%, rgba(240,67,123,1) 79%, rgba(21,21,21,1) 100%);
+	color: #151515;
+	transition: 0.5s;
 }
 
 /* Custom Button Stylings */
