@@ -1,7 +1,6 @@
 <div align="center">
     <h2><a href="https://links.hwtech.club/">links.hwtech.club</a></h2>
     <h3>All-in-One Link Sharing Page</h3>
-    <br>
     <img alt="HTML" title="HyperText Markup Language" src="https://img.shields.io/badge/HTML-informational?style=flat-sqaure&logo=html5&logoColor=white&color=E34F26">
     <img alt="CSS" title="Cascading Style Sheets" src="https://img.shields.io/badge/CSS-informational?style=flat-sqaure&logo=css3&logoColor=white&color=1572B6">
     <img alt="JS" title="JavaScript" src="https://img.shields.io/badge/JavaScript-informational?style=flat-sqaure&logo=javascript&logoColor=black&color=F7DF1E">
