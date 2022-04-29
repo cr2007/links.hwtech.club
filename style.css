@@ -61,7 +61,7 @@ button:hover{
 }
 
 /* Add a background color to the button if it is clicked on (add the
-   active class with JS), and when you move the mouse over it (hover) */
+ * active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
 	background-color: white;
 }
@@ -123,6 +123,16 @@ button:hover{
 	}
 }
 
+@media only screen and (min-width: 375px) {
+	.TechClubSignUp {
+		font-size: 99%;
+	}
+
+	.GDSC {
+		font-size: 96%;
+	}
+}
+
 @media only screen and (min-width: 429px) {
 	.TechClubSignUp, .GDSC {
 		font-size: 105%;
@@ -157,8 +167,6 @@ button:hover{
 		font-size: 125%;
 	}
 }
-
-
 
 /* Club Sign-Ups Button (Custom) Styling */
 .ClubSignUp:hover {
