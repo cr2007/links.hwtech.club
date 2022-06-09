@@ -12,7 +12,7 @@
 <p>This link will be placed in the website section for all our Social Media Pages</p>
 <p>Think of it as a Linktree alternative, but with better personalisation</p>
 <br>
-<p>If you have any suggestions, feel free to put it forward via an <a href="https://github.com/cr2007/links.hwtech.club/issues"><b>Issue</b></a>, or if you want to work on it yourself, you can fork the project and then set-up a Pull Request</p>
+<p>If you have any suggestions, feel free to put it forward via an <a href="https://github.com/cr2007/links.hwtech.club/issues"><b>Issue</b></a>, or if you want to work on it yourself, you can fork the project and then set-up a <a href="https://github.com/HWTechClub/links.hwtech.club/pulls">Pull Request</a>.</p>
 
 ---
 
